@@ -21,7 +21,7 @@ This is a simple Weather Prediction App built using Streamlit and OpenWeatherMap
 ## Installation
 1. 📥 Clone the repository or download the script.
    ```bash
-   git clone https://github.com/yourusername/weather-app.git
+   git clone https://github.com/ahmad123m/weather-checker.git
    cd weather-app
    ```
 2. ⚙️ Install dependencies:
@@ -42,8 +42,6 @@ This is a simple Weather Prediction App built using Streamlit and OpenWeatherMap
    - 📂 Download the weather data as a CSV file.
    - 📉 View a graph of the average temperature by city.
 
-## Screenshots
-🖼️ (Sample screenshots can be added here)
 
 ## Notes
 - 🔒 The script uses an environment variable to store the API key for security purposes. If not set, it falls back to a hardcoded API key.
