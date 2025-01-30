@@ -45,10 +45,10 @@ This is a simple Weather Prediction App built using Streamlit and OpenWeatherMap
 
 ## Notes
 - 🔒 The script uses an environment variable to store the API key for security purposes. If not set, it falls back to a hardcoded API key.
-- 🖼️ The app also includes an optional background image (`wolfgang-hasselmann-bR_-gllg7Bs-unsplash.jpg`). Ensure the image is available in the project directory.
+- 🖼️ The app also includes an optional background image. Ensure the image is available in the project directory.
 
 ## License
-📝 This project is open-source and available under the [MIT License](LICENSE).
+📝 This project is open-source and available under the [Unlicense license](LICENSE).
 
 ## Author
 👤 Muhammad Ahmad
