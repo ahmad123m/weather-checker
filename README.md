@@ -1,117 +1,80 @@
+Weather Prediction App
 
-Weather Prediction App 🌦️
-This is a Streamlit-based Weather Prediction App that fetches real-time weather data for any city using the OpenWeatherMap API. It also allows users to download the weather data as a CSV file and visualize the average temperature by city in a bar chart.
+Overview
+
+This is a simple Weather Prediction App built using Streamlit and OpenWeatherMap API. It allows users to check the current weather conditions of a city by entering its name. Additionally, users can download weather data as a CSV file and visualize temperature trends using a graph.
 
 Features
-Real-Time Weather Data: Get current weather details (temperature, humidity, and weather description) for any city.
 
-Data Export: Download the weather data as a CSV file.
+Fetch real-time weather data using the OpenWeatherMap API.
 
-Visualization: View a bar chart of the average temperature for searched cities.
+Displays temperature, humidity, and weather description.
 
-User-Friendly Interface: Built with Streamlit for a clean and interactive UI.
+Stores weather search history in the session state.
 
-Prerequisites
-Before running the app, ensure you have the following installed:
+Allows users to download weather data as a CSV file.
 
-Python 3.7+
+Provides a graphical representation of the average temperature per city.
 
-Streamlit (pip install streamlit)
+Technologies Used
 
-Requests (pip install requests)
+Python
 
-Pandas (pip install pandas)
+Streamlit
 
-Matplotlib (pip install matplotlib)
+OpenWeatherMap API
 
-Setup
-Clone the Repository:
+Pandas
 
-bash
-Copy
-git clone https://github.com/your-username/weather-app.git
+Matplotlib
+
+Requests
+
+Installation
+
+Clone the repository or download the script.
+
+git clone https://github.com/yourusername/weather-app.git
 cd weather-app
-Install Dependencies:
 
-bash
-Copy
+Install dependencies:
+
 pip install -r requirements.txt
-Get an API Key:
 
-Sign up at OpenWeatherMap and get your free API key.
+Set up the API key:
 
-Set the API key as an environment variable:
+Get an API key from OpenWeatherMap.
 
-bash
-Copy
-export OPENWEATHER_API_KEY="your_api_key_here"
-Alternatively, you can hardcode the API key in the weather.py file (not recommended for production).
+Set an environment variable OPENWEATHER_API_KEY with your API key.
 
-Run the App:
-
-bash
-Copy
-streamlit run weather.py
 Usage
-Enter a City Name:
 
-Type the name of the city in the input box (e.g., "London").
+Run the Streamlit app:
 
-Click the Get Weather button to fetch the weather details.
+streamlit run weather.py
 
-Download Weather Data:
+Enter a city name in the input field and click "Get Weather."
 
-Click the Download Weather Data as CSV button to export the weather data for all searched cities.
+Use the available buttons to:
 
-View Weather Graph:
+Download the weather data as a CSV file.
 
-Click the Show Weather Graph button to visualize the average temperature for the searched cities.
-
-Example
-Input:
-City: New York
-
-Output:
-Weather Description: Clear sky
-
-Temperature: 15°C
-
-Humidity: 60%
-
-Graph:
-A bar chart showing the average temperature for all searched cities.
+View a graph of the average temperature by city.
 
 Screenshots
-Weather App Screenshot
+
+(Sample screenshots can be added here)
+
+Notes
+
+The script uses an environment variable to store the API key for security purposes. If not set, it falls back to a hardcoded API key.
+
+The app also includes an optional background image (wolfgang-hasselmann-bR_-gllg7Bs-unsplash.jpg). Ensure the image is available in the project directory.
 
 License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contributing
-Contributions are welcome! If you'd like to improve this project, please follow these steps:
+This project is open-source and available under the MIT License.
 
-Fork the repository.
+Author
 
-Create a new branch (git checkout -b feature/your-feature).
-
-Commit your changes (git commit -m 'Add some feature').
-
-Push to the branch (git push origin feature/your-feature).
-
-Open a pull request.
-
-Acknowledgments
-OpenWeatherMap for providing the weather data API.
-
-Streamlit for the amazing framework to build interactive web apps.
-
-Contact
-For any questions or feedback, feel free to reach out:
-
-Your Name
-
-Email: your.email@example.com
-
-GitHub: your-username
-
-Enjoy using the Weather Prediction App! 🌞🌧️❄️
+Muhammad Ahmad
